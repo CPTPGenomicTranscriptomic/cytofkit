@@ -639,7 +639,7 @@ shinyServer(function(input, output, session) {
   })
   
   session$onSessionEnded(function(){
-      file.remove("cytofkit_shinyAPP_marker_heatmap.pdf")
+      #file.remove("cytofkit_shinyAPP_marker_heatmap.pdf")
   })
   
   ##-----level plot-----
